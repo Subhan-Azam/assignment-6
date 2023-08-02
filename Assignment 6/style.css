@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+}
+
+.complete {
+    background: url("floating_elements.png");
+    margin-top: 100px;
+
+}
+
+/* navbar */
+.header {
+    background-color: white;
+
+}
+
+.navbar-nav {
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.nav-item .nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: underline 2px green;
+}
+.nav-link:hover {
+    background-color: rgba(128, 128, 128, 0.174);
+    background-size: cover;
+    border-radius: 12px;
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+
+}
+
+
+
+/* home-page */
+.home-text {
+    position: relative;
+    left: 100px;
+}
+
+#home-heading {
+    margin-top: 80px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+#home-btn-1 {
+    border: none;
+    background-color: rgba(32, 124, 32, 0.837);
+    color: white;
+    margin-top: 15px;
+    padding: 6px 45px;
+}
+
+#home-btn-2 {
+    border: 2px solid rgba(4, 126, 4, 0.719);
+    background-color: white;
+    color: green;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 6px 30px;
+
+}
+
+#home-btn-1:hover {
+    background-color: rgb(32, 122, 32);
+}
+
+#home-btn-2:hover {
+    background-color: rgb(32, 122, 32);
+    color: white;
+}
+
+.home-img {
+    width: 100%;
+}
+
+
+/* customer-page */
+.customer-bg {
+    background: url('human.png');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 250px;
+    height: 600px;
+    width: 100%;
+
+}
+
+#customer-heading {
+    margin-top: 100px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#customer-btn {
+    border: none;
+    color: green;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#customer-btn:hover {
+    background-color: rgba(45, 146, 45, 0.94);
+    color: white;
+}
+
+
+
+/* cards-page */
+.cards-page-bg {
+    background: url("Slanted Green BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0px;
+    height: 1630px;
+
+}
+
+.card {
+    position: relative;
+    top: 400px;
+}
+
+#card-img-1 {
+    height: auto;
+    width: 100%;
+}
+
+#card-img-2 {
+    height: auto;
+    width: 100%;
+}
+
+#card-1 {
+    margin-top: 100px;
+}
+
+#card-2 {
+    margin-top: 100px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: green;
+}
+
+#card-right-content {
+    background-color: transparent;
+    border: none;
+    margin-top: 100px;
+}
+
+#card-page-heading {
+    font-family: monospace;
+}
+
+#card-page-para {
+    font-family: cursive;
+}
+
+
+/* image-page */
+.image-page {
+    position: relative;
+    top: -300px;
+}
+
+#image-1 {
+    background: url("photo (4).png");
+    height: 300px;
+    background-repeat: no-repeat;
+
+}
+
+
+#image-2 {
+    background: url("photo (3).png");
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+#image-3 {
+    background: url("photo (1).png");
+    height: 300px;
+    background-repeat: no-repeat;
+
+}
+
+.image-text {
+    color: white;
+}
+
+#image-heading {
+    margin-top: 35%;
+    font-size: 40px;
+}
+
+
+/* form-page */
+.form-page{
+    margin-top: -250px;
+}
+
+#form-input{
+    width: 300px;
+    padding: 6px 30px;
+    border-radius: 10px;
+}
+#form-btn{
+    border: none;
+    background-color: rgb(54, 130, 54);
+    padding: 6px 20px;
+    color: white;
+    border-radius: 5px;
+}
+#form-btn:hover{
+    background-color: rgb(61, 149, 61);
+}
+
+span {
+    color: green;
+    margin-left: 35%;
+    margin-top: 900px;
+}
+
+.brand-content {
+    margin-top: 60px;
+}
+
+
+/* get-started */
+.get-started {
+    margin-top: 50px;
+    background-color: rgb(93, 150, 93);
+    height: 500px;
+}
+
+#get-started-heading {
+    align-items: center;
+    color: white;
+    margin-top: 110px;
+    font-size: 70px;
+}
+
+#get-started-btn {
+    border: none;
+    color: green;
+    margin-top: 30px;
+    padding: 9px 40px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#get-started-btn:hover {
+    color: rgb(62, 146, 62);
+    background-color: rgb(245, 238, 238);
+}
+
+
+/* footer */
+#footer{
+    margin-bottom: 40px;
+}
+.footer-content {
+    margin-top: 100px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.footer-content a:hover{
+    text-decoration: underline;
+}
+.footer-content ul li {
+    margin-top: 8px;
+    list-style: none;
+
+}
+.copy-right{
+    background-color: rgba(128, 128, 128, 0.182);
+    height: auto;
+}
+.copy-content{
+    margin-top: 20px;
+}
